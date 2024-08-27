@@ -1,0 +1,622 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5F700B4C2C7DFACE00126F0D /* makers_workshopApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F700B4B2C7DFACE00126F0D /* makers_workshopApp.swift */; };
+		5F700B4E2C7DFACE00126F0D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F700B4D2C7DFACE00126F0D /* ContentView.swift */; };
+		5F700B502C7DFACF00126F0D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F700B4F2C7DFACF00126F0D /* Assets.xcassets */; };
+		5F700B542C7DFACF00126F0D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F700B532C7DFACF00126F0D /* Preview Assets.xcassets */; };
+		5F700B5E2C7DFACF00126F0D /* makers_workshopTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F700B5D2C7DFACF00126F0D /* makers_workshopTests.swift */; };
+		5F700B682C7DFACF00126F0D /* makers_workshopUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F700B672C7DFACF00126F0D /* makers_workshopUITests.swift */; };
+		5F700B6A2C7DFACF00126F0D /* makers_workshopUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F700B692C7DFACF00126F0D /* makers_workshopUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5F700B5A2C7DFACF00126F0D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5F700B402C7DFACE00126F0D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5F700B472C7DFACE00126F0D;
+			remoteInfo = "makers-workshop";
+		};
+		5F700B642C7DFACF00126F0D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5F700B402C7DFACE00126F0D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5F700B472C7DFACE00126F0D;
+			remoteInfo = "makers-workshop";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5F700B482C7DFACE00126F0D /* makers-workshop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "makers-workshop.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F700B4B2C7DFACE00126F0D /* makers_workshopApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = makers_workshopApp.swift; sourceTree = "<group>"; };
+		5F700B4D2C7DFACE00126F0D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5F700B4F2C7DFACF00126F0D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5F700B512C7DFACF00126F0D /* makers_workshop.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = makers_workshop.entitlements; sourceTree = "<group>"; };
+		5F700B532C7DFACF00126F0D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5F700B592C7DFACF00126F0D /* makers-workshopTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "makers-workshopTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F700B5D2C7DFACF00126F0D /* makers_workshopTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = makers_workshopTests.swift; sourceTree = "<group>"; };
+		5F700B632C7DFACF00126F0D /* makers-workshopUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "makers-workshopUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F700B672C7DFACF00126F0D /* makers_workshopUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = makers_workshopUITests.swift; sourceTree = "<group>"; };
+		5F700B692C7DFACF00126F0D /* makers_workshopUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = makers_workshopUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5F700B452C7DFACE00126F0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F700B562C7DFACF00126F0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F700B602C7DFACF00126F0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5F700B3F2C7DFACE00126F0D = {
+			isa = PBXGroup;
+			children = (
+				5F700B4A2C7DFACE00126F0D /* makers-workshop */,
+				5F700B5C2C7DFACF00126F0D /* makers-workshopTests */,
+				5F700B662C7DFACF00126F0D /* makers-workshopUITests */,
+				5F700B492C7DFACE00126F0D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5F700B492C7DFACE00126F0D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5F700B482C7DFACE00126F0D /* makers-workshop.app */,
+				5F700B592C7DFACF00126F0D /* makers-workshopTests.xctest */,
+				5F700B632C7DFACF00126F0D /* makers-workshopUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5F700B4A2C7DFACE00126F0D /* makers-workshop */ = {
+			isa = PBXGroup;
+			children = (
+				5F700B4B2C7DFACE00126F0D /* makers_workshopApp.swift */,
+				5F700B4D2C7DFACE00126F0D /* ContentView.swift */,
+				5F700B4F2C7DFACF00126F0D /* Assets.xcassets */,
+				5F700B512C7DFACF00126F0D /* makers_workshop.entitlements */,
+				5F700B522C7DFACF00126F0D /* Preview Content */,
+			);
+			path = "makers-workshop";
+			sourceTree = "<group>";
+		};
+		5F700B522C7DFACF00126F0D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				5F700B532C7DFACF00126F0D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5F700B5C2C7DFACF00126F0D /* makers-workshopTests */ = {
+			isa = PBXGroup;
+			children = (
+				5F700B5D2C7DFACF00126F0D /* makers_workshopTests.swift */,
+			);
+			path = "makers-workshopTests";
+			sourceTree = "<group>";
+		};
+		5F700B662C7DFACF00126F0D /* makers-workshopUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5F700B672C7DFACF00126F0D /* makers_workshopUITests.swift */,
+				5F700B692C7DFACF00126F0D /* makers_workshopUITestsLaunchTests.swift */,
+			);
+			path = "makers-workshopUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5F700B472C7DFACE00126F0D /* makers-workshop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F700B6D2C7DFACF00126F0D /* Build configuration list for PBXNativeTarget "makers-workshop" */;
+			buildPhases = (
+				5F700B442C7DFACE00126F0D /* Sources */,
+				5F700B452C7DFACE00126F0D /* Frameworks */,
+				5F700B462C7DFACE00126F0D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "makers-workshop";
+			productName = "makers-workshop";
+			productReference = 5F700B482C7DFACE00126F0D /* makers-workshop.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5F700B582C7DFACF00126F0D /* makers-workshopTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F700B702C7DFACF00126F0D /* Build configuration list for PBXNativeTarget "makers-workshopTests" */;
+			buildPhases = (
+				5F700B552C7DFACF00126F0D /* Sources */,
+				5F700B562C7DFACF00126F0D /* Frameworks */,
+				5F700B572C7DFACF00126F0D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5F700B5B2C7DFACF00126F0D /* PBXTargetDependency */,
+			);
+			name = "makers-workshopTests";
+			productName = "makers-workshopTests";
+			productReference = 5F700B592C7DFACF00126F0D /* makers-workshopTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5F700B622C7DFACF00126F0D /* makers-workshopUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F700B732C7DFACF00126F0D /* Build configuration list for PBXNativeTarget "makers-workshopUITests" */;
+			buildPhases = (
+				5F700B5F2C7DFACF00126F0D /* Sources */,
+				5F700B602C7DFACF00126F0D /* Frameworks */,
+				5F700B612C7DFACF00126F0D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5F700B652C7DFACF00126F0D /* PBXTargetDependency */,
+			);
+			name = "makers-workshopUITests";
+			productName = "makers-workshopUITests";
+			productReference = 5F700B632C7DFACF00126F0D /* makers-workshopUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5F700B402C7DFACE00126F0D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					5F700B472C7DFACE00126F0D = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					5F700B582C7DFACF00126F0D = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 5F700B472C7DFACE00126F0D;
+					};
+					5F700B622C7DFACF00126F0D = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 5F700B472C7DFACE00126F0D;
+					};
+				};
+			};
+			buildConfigurationList = 5F700B432C7DFACE00126F0D /* Build configuration list for PBXProject "makers-workshop" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5F700B3F2C7DFACE00126F0D;
+			productRefGroup = 5F700B492C7DFACE00126F0D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5F700B472C7DFACE00126F0D /* makers-workshop */,
+				5F700B582C7DFACF00126F0D /* makers-workshopTests */,
+				5F700B622C7DFACF00126F0D /* makers-workshopUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5F700B462C7DFACE00126F0D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F700B542C7DFACF00126F0D /* Preview Assets.xcassets in Resources */,
+				5F700B502C7DFACF00126F0D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F700B572C7DFACF00126F0D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F700B612C7DFACF00126F0D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5F700B442C7DFACE00126F0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F700B4E2C7DFACE00126F0D /* ContentView.swift in Sources */,
+				5F700B4C2C7DFACE00126F0D /* makers_workshopApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F700B552C7DFACF00126F0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F700B5E2C7DFACF00126F0D /* makers_workshopTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F700B5F2C7DFACF00126F0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F700B6A2C7DFACF00126F0D /* makers_workshopUITestsLaunchTests.swift in Sources */,
+				5F700B682C7DFACF00126F0D /* makers_workshopUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5F700B5B2C7DFACF00126F0D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5F700B472C7DFACE00126F0D /* makers-workshop */;
+			targetProxy = 5F700B5A2C7DFACF00126F0D /* PBXContainerItemProxy */;
+		};
+		5F700B652C7DFACF00126F0D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5F700B472C7DFACE00126F0D /* makers-workshop */;
+			targetProxy = 5F700B642C7DFACF00126F0D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5F700B6B2C7DFACF00126F0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5F700B6C2C7DFACF00126F0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		5F700B6E2C7DFACF00126F0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "makers-workshop/makers_workshop.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"makers-workshop/Preview Content\"";
+				DEVELOPMENT_TEAM = 9D8MFBJLQP;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.makers-workshop";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5F700B6F2C7DFACF00126F0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "makers-workshop/makers_workshop.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"makers-workshop/Preview Content\"";
+				DEVELOPMENT_TEAM = 9D8MFBJLQP;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.makers-workshop";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5F700B712C7DFACF00126F0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9D8MFBJLQP;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.makers-workshopTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/makers-workshop.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/makers-workshop";
+			};
+			name = Debug;
+		};
+		5F700B722C7DFACF00126F0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9D8MFBJLQP;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.makers-workshopTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/makers-workshop.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/makers-workshop";
+			};
+			name = Release;
+		};
+		5F700B742C7DFACF00126F0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9D8MFBJLQP;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.makers-workshopUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "makers-workshop";
+			};
+			name = Debug;
+		};
+		5F700B752C7DFACF00126F0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9D8MFBJLQP;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.makers-workshopUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "makers-workshop";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5F700B432C7DFACE00126F0D /* Build configuration list for PBXProject "makers-workshop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F700B6B2C7DFACF00126F0D /* Debug */,
+				5F700B6C2C7DFACF00126F0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F700B6D2C7DFACF00126F0D /* Build configuration list for PBXNativeTarget "makers-workshop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F700B6E2C7DFACF00126F0D /* Debug */,
+				5F700B6F2C7DFACF00126F0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F700B702C7DFACF00126F0D /* Build configuration list for PBXNativeTarget "makers-workshopTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F700B712C7DFACF00126F0D /* Debug */,
+				5F700B722C7DFACF00126F0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F700B732C7DFACF00126F0D /* Build configuration list for PBXNativeTarget "makers-workshopUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F700B742C7DFACF00126F0D /* Debug */,
+				5F700B752C7DFACF00126F0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5F700B402C7DFACE00126F0D /* Project object */;
+}
