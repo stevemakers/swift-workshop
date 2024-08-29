@@ -14,6 +14,9 @@
 		5F700B5E2C7DFACF00126F0D /* makers_workshopTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F700B5D2C7DFACF00126F0D /* makers_workshopTests.swift */; };
 		5F700B682C7DFACF00126F0D /* makers_workshopUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F700B672C7DFACF00126F0D /* makers_workshopUITests.swift */; };
 		5F700B6A2C7DFACF00126F0D /* makers_workshopUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F700B692C7DFACF00126F0D /* makers_workshopUITestsLaunchTests.swift */; };
+		5F700B772C7DFD4D00126F0D /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F700B762C7DFD4D00126F0D /* Data.swift */; };
+		5F700B792C7E007600126F0D /* pembroke-welsh-corgi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5F700B782C7E007600126F0D /* pembroke-welsh-corgi.jpg */; };
+		5F700B7B2C80BAC400126F0D /* GPT.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F700B7A2C80BAC400126F0D /* GPT.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +48,9 @@
 		5F700B632C7DFACF00126F0D /* makers-workshopUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "makers-workshopUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F700B672C7DFACF00126F0D /* makers_workshopUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = makers_workshopUITests.swift; sourceTree = "<group>"; };
 		5F700B692C7DFACF00126F0D /* makers_workshopUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = makers_workshopUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5F700B762C7DFD4D00126F0D /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		5F700B782C7E007600126F0D /* pembroke-welsh-corgi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "pembroke-welsh-corgi.jpg"; sourceTree = "<group>"; };
+		5F700B7A2C80BAC400126F0D /* GPT.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPT.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,9 +101,12 @@
 		5F700B4A2C7DFACE00126F0D /* makers-workshop */ = {
 			isa = PBXGroup;
 			children = (
+				5F700B7A2C80BAC400126F0D /* GPT.swift */,
+				5F700B762C7DFD4D00126F0D /* Data.swift */,
 				5F700B4B2C7DFACE00126F0D /* makers_workshopApp.swift */,
 				5F700B4D2C7DFACE00126F0D /* ContentView.swift */,
 				5F700B4F2C7DFACF00126F0D /* Assets.xcassets */,
+				5F700B782C7E007600126F0D /* pembroke-welsh-corgi.jpg */,
 				5F700B512C7DFACF00126F0D /* makers_workshop.entitlements */,
 				5F700B522C7DFACF00126F0D /* Preview Content */,
 			);
@@ -233,6 +242,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F700B792C7E007600126F0D /* pembroke-welsh-corgi.jpg in Resources */,
 				5F700B542C7DFACF00126F0D /* Preview Assets.xcassets in Resources */,
 				5F700B502C7DFACF00126F0D /* Assets.xcassets in Resources */,
 			);
@@ -260,7 +270,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				5F700B4E2C7DFACE00126F0D /* ContentView.swift in Sources */,
+				5F700B772C7DFD4D00126F0D /* Data.swift in Sources */,
 				5F700B4C2C7DFACE00126F0D /* makers_workshopApp.swift in Sources */,
+				5F700B7B2C80BAC400126F0D /* GPT.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
