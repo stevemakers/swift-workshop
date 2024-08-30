@@ -28,8 +28,8 @@ let information = Info(
     Jasper was no ordinary Corgi. He had lived his entire life within the gilded walls of the Queen's palace. The plush carpets, the gourmet treats, the endless attention - it was a life most dogs could only dream of. Yet, beneath the surface of his pampered existence, Jasper felt a stirring within him, a yearning for something more.
     """,
     hobbies: ["bicycle", "ticket.fill", "book.fill"],
-    foods: ["🥐", "🌮", "🍣"],
-    colors: [Color.blue, Color.purple, Color.pink],
+    foods: ["🥐", "🌮", "🍣", "🥐", "🌮", "🍣", "🥐", "🌮", "🍣", "🥐", "🌮", "🍣"],
+    colors: [Color.blue, Color.purple, Color.pink, Color.mint, Color.brown, Color.indigo, Color.white],
     funFacts: [
         "The Corgi was once mistaken for a fox and was almost hunted to extinction.",
         "The Corgi's short legs are actually a result of a genetic mutation.",
